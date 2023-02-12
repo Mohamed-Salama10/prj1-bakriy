@@ -1,0 +1,179 @@
+body {
+  overflow-y: scroll;
+  --main-color: rgb(142, 119, 84);
+}
+
+h1 {
+  font-family: serif sans-serif;
+}
+
+.nav-content-width {
+  width: 30%;
+}
+
+.nav-title-margin {
+  margin-left: 80px;
+}
+
+header {
+  background-image: url(../Images/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+h1 {
+  font-size: 76px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button {
+  background-color: rgb(142, 119, 84);
+  border: none;
+  border-color: rgb(142, 119, 84);
+}
+.button:hover {
+  color: black !important;
+  background-color: white;
+  transition: all 0.1s 0s ease-in;
+  -webkit-transition: all 0.1s 0s ease-in;
+  -moz-transition: all 0.1s 0s ease-in;
+  -ms-transition: all 0.1s 0s ease-in;
+  -o-transition: all 0.1s 0s ease-in;
+}
+
+hr {
+  margin: 0px;
+  font-size: 2px;
+  opacity: 0;
+}
+button:hover hr {
+  opacity: 1;
+}
+
+.scroll-button {
+  width: 65px;
+  height: 35px;
+  border: 1px solid white !important;
+  margin-top: 200px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.inner-btn {
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  background-color: white;
+  bottom: 50%;
+  right: 0;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  animation: button-animation infinite 15s;
+  -webkit-animation: button-animation infinite 3s;
+}
+
+@keyframes button-animation {
+  0% {
+    right: 0%;
+  }
+
+  50% {
+    right: 100%;
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    right: 0%;
+    opacity: 1;
+  }
+}
+/* start of who we are section  */
+
+.wwa-container {
+  width: 100%;
+}
+.icon-border {
+  width: 40px;
+  height: 40px;
+  border: solid 2px;
+  border-color: var(--main-color);
+}
+.icon-transform {
+  color: var(--main-color);
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+}
+ul[class="list-unstyled"] {
+  color: var(--main-color);
+}
+
+/* our contact section */
+.contact-icons {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.w-our-contact {
+  width: 85%;
+}
+/* summary style*/
+
+.summary {
+  background-color: #403d38;
+}
+
+.summary p {
+  color: RGB(150, 150, 150);
+}
+
+.hr-line {
+  border: solid 2px black;
+}
+
+.contact-details p {
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+}
+
+.contact-details p:hover {
+  color: white;
+}
+
+/* start of footer style*/
+footer {
+  background-color: #353330;
+  color: RGB(150, 150, 150);
+}
+
+.footer img {
+  width: 200px;
+}
+
+
+.footer-icon{
+  width: 35px;
+  height: 35px;
+  background-color: #403d38;
+ 
+}
+.icons{
+  width: 10%;
+}
